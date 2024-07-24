@@ -1,0 +1,1107 @@
+df -h
+lsb_release -a
+hostnamectl
+cat /etc/os-release
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh && bash Miniconda3-latest-Linux-x86_64.sh
+uname -a
+wget https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-aarch64.sh
+bash Anaconda3-2022.05-Linux-aarch64.sh
+source ~/.bashrc
+conda
+conda list
+source ~/.bash_profile
+conda
+/home/username/anaconda3/bin/conda list
+nano ~/.bashrc
+conda
+df -h
+source ~/.bashrc
+conda
+nano ~/.bashrc
+conda
+source ~/.bashrc
+conda
+conda create --name zhongjinggpt python==3.9
+conda create -n zhongjinggpt python==3.9
+conda create -n zhongjinggpt python=3.9
+conda activate zhongjinggpt
+conda init
+lscpu | grep "Model name"
+lscpu | grep
+lscpu | grep "Model name"
+lscpu
+uname -a
+lsb_release -a
+cat /etc/os-release
+hostnamectl
+conda activate zhongjinggpt
+nvidia-smi
+cd Baichuan2
+python "/root/Baichuan2/setup.py"
+conda activate chatglm
+sudo dpkg -i cmake-data_3.10.2-1ubuntu2.18.04.2_all.deb
+conda activate zhongjinggpt
+git clone https://github.com/baichuan-inc/Baichuan2.git
+unzip "/root/Baichuan2.zip"
+apt install unzip
+unzip "/root/Baichuan2.zip"
+cd Baichuan2
+pip install -r requirements.txt
+conda install pytorch==2.0.0 torchvision==0.15.0 torchaudio==2.0.0 cpuonly -c pytorch
+pip install torch==2.0.0
+conda install pytorch==2.0.0 torchvision==0.15.0 torchaudio==2.0.0 cpuonly -c pytorch
+pip install -r requirements.txt
+requirements.txt
+sudo apt-get update
+sudo apt-get install gcc python3-dev
+sudo apt-get update
+sudo apt-get install gcc python3-dev
+sudo apt-get update --fix-missing
+wget http://us.ports.ubuntu.com/ubuntu-ports/pool/main/i/isl/libisl19_0.19-1_arm64.deb
+sudo dpkg -i libisl19_0.19-1_arm64.deb
+sudo dpkg -i libmpc3_1.1.0-1_arm64.deb
+# ... repeat for all uploaded packages
+sudo apt-get update
+sudo apt-get install gcc python3-dev
+sudo dpkg -i *.deb
+sudo apt-get install gcc python3-dev
+sudo apt --fix-broken install
+sudo apt-get install gcc python3-dev
+pip install -r requirements.txt
+sudo apt-get install g++
+pip install xformers
+python
+pip install transformers==4.33.3
+python
+pip install modelscope
+python setup.py
+pip install sentencepiece
+python setup.py
+pip install accelerate
+python setup.py
+python
+cd ..
+git clone --recursive https://github.com/li-plus/chatglm.cpp.git && cd chatglm.cpp
+unzip "/root/chatglm.cpp-main.zip"
+cd "/root/chatglm.cpp/"
+git submodule update --init --recursive
+git status
+git submodule update --init --recursive
+pwd
+git init
+git submodule update --init --recursive
+git status
+python3 -m pip install -U pip
+conda create -n chatglm python=3.9
+conda activate chatglm
+python3 -m pip install -U pip
+python3 -m pip install torch tabulate tqdm transformers accelerate sentencepiece
+python3 chatglm_cpp/convert.py -i THUDM/chatglm-6b -t q4_0 -o chatglm-ggml.bin
+pip install modelscope
+git lfs install
+git clone https://www.modelscope.cn/ZhipuAI/chatglm3-6b-32k.git
+sudo apt-get install git-lfs
+sudo dpkg -i git-lfs_.deb
+sudo dpkg -i git-lfs_2.3.4-1_arm64.deb
+git lfs version
+git lfs install
+git clone https://www.modelscope.cn/ZhipuAI/chatglm3-6b-32k.git
+python down.py
+nano down.py
+python down.py
+python3 chatglm_cpp/convert.py -i "/root/.cache/modelscope/hub/ZhipuAI/chatglm3-6b-32k/" -t q4_0 -o chatglm-ggml.bin
+cmake -B build
+sudo apt install cmake
+sudo apt install snapd
+sudo dpkg -i cmake-data_3.10.2-1ubuntu2.18.04.1_all.deb
+sudo dpkg -i libjsoncpp1_1.7.4-3_arm64.deb
+sudo dpkg -i librhash0_1.3.6-2_arm64.deb
+sudo dpkg -i cmake_3.10.2-1ubuntu2.18.04.1_arm64.deb
+sudo dpkg -i make_4.1-9.1ubuntu1_arm64.deb
+cmake --version
+snap install cmake
+apt  install cmake
+sudo dpkg -i cmake-data_3.10.2-1ubuntu2.18.04.2_all.deb
+conda activate chatglm
+sudo dpkg -i cmake_3.10.2-1ubuntu2.18.04.2_arm64.deb
+cd llama.cpp
+python
+conda activate chatglm
+cd chatglm.cpp
+sudo dpkg -i cmake-data_3.10.2-1ubuntu2.18.04.2_all.deb
+sudo dpkg -i cmake_3.10.2-1ubuntu2.18.04.2_arm64.deb
+cmake --version
+sudo dpkg -i libarchive13_package_name.deb
+sudo dpkg -i libarchive13_3.4.0-2ubuntu1_arm64.deb
+cmake --version
+sudo dpkg -i libnettle7_package_name.deb
+sudo dpkg -i libnettle7_3.5.1+really3.5.1-2_amd64.deb
+sudo dpkg -i libnettle7_3.5.1+really3.5.1-2_arm64.deb
+cmake --version
+cmake -B build
+cmake --build build -j --config Release
+python3 chatglm_cpp/convert.py -i /root/.cache/modelscope/hub/ZhipuAI/chatglm3-6b-32k -t q4_0 -o chatglm-ggml.bin
+cmake -B build
+cmake --build build -j --config Release
+mkdir /root/chatglm.cpp/build
+cmake -B build
+./build/bin/main -m chatglm-ggml.bin -p 你好
+find / -name "chatglm-ggml.bin"
+./build/bin/main -m /root/chatglm.cpp/chatglm-ggml.bin -p 你好
+./build/bin/main -h
+find . -name main
+git submodule update --init --recursive
+cmake -B build
+cmake --build build -j --config Release
+cmake --build build --config Release -- -j 4
+cmake version
+sudo apt-get install cmake
+sudo apt-get update
+sudo apt-get install -y software-properties-common lsb-release
+sudo apt-get update
+sudo apt-get install cmake
+sudo apt install build-essential checkinstall zlib1g-dev libssl-dev -y
+wget https://github.com/Kitware/CMake/releases/download/v3.28.1/cmake-3.28.1-linux-aarch64.sh
+chmod +x cmake-3.28.1-linux-aarch64.sh
+./cmake-3.28.1-linux-aarch64.sh --prefix=/opt/cmake --skip-license
+/opt/cmake/bin/cmake --version
+cd ..
+sudo mkdir -p /opt/cmake
+sudo chmod 755 /opt/cmake
+sudo ./cmake-3.28.1-linux-aarch64.sh --prefix=/opt/cmake --skip-license
+./cmake-3.28.1-linux-aarch64.sh --prefix=/opt/cmake --skip-license
+./root/chatglm.cpp/cmake-3.28.1-linux-aarch64.sh --prefix=/opt/cmake --skip-license
+/root/chatglm.cpp/cmake-3.28.1-linux-aarch64.sh --prefix=/opt/cmake --skip-license
+ls -ld /opt/cmake
+/opt/cmake/bin/cmake --version
+cd root
+cd /root
+cmake -B build
+cmake --build build -j --config Release
+gcc --version
+g++ --version
+conda activate baichuan2
+conda activate baichuan
+conda activate chatglm
+df-h
+df -h
+cd llama.cpp
+cd chatglm.cpp
+cmake -B build
+conda create -n chat python=3.10
+conda activate chat
+git clone https://github.com/AGIUI/Local-LLM.git
+mv /root/chatglm.cpp/Local-LLM/* /root/
+cd ..
+git clone https://github.com/AGIUI/Local-LLM.git
+unzip "/root/Local-LLM-main.zip"
+cd "/root/Local-LLM/"
+./api-mac.sh
+su - newuser
+adduser newuser
+su - Paris
+kyl520
+su - 1
+git clone https://github.com/ggerganov/llama.cpp
+cd llama.cpp
+make
+mkdir build
+cd build
+cmake ..
+sudo apt-get update
+sudo apt-get install --only-upgrade cmake
+sudo mkdir /opt/cmake
+cd ..
+tar -zxvf cmake-3.28.2-linux-aarch64.tar.gz
+cd cmake-3.28.2
+sudo find / -type d -name "cmake-3.28.2" 2>/dev/null
+sudo find / -type d -name "cmake" 2>/dev/null
+cd /root
+ls -ld cmake-3.28.2-linux-aarch64
+cd /root/cmake-3.28.2-linux-aarch64
+./bootstrap
+make
+sudo make install
+cmake --version
+export PATH=/root/cmake-3.28.2-linux-aarch64/bin:$PATH
+cmake --version
+conda activate zhongjinggpt
+cd ..
+cd /root/chatglm.cpp/
+cmake --version
+cmake -B build
+ls /root/chatglm.cpp/third_party/ggml
+ls /root/chatglm.cpp/third_party/sentencepiece
+git submodule update --init --recursive
+cd /root/chatglm.cpp/third_party/
+unzip "/root/chatglm.cpp/third_party/ggml-6549d12f2e3176050040a86334f17c001e170f13.zip"
+unzip "/root/chatglm.cpp/third_party/sentencepiece-635fe8423a249b6e081aacd290d8aef7476c6a28.zip"
+unzip "/root/chatglm.cpp/third_party/pybind11-8b03ffa7c06cd9c8a38297b1c8923695d1ff1b07.zip"
+cmake -B build
+cd ..
+cmake -B build
+cmake --build build -j --config Release
+./build/bin/main -m chatglm-ggml.bin -p 你好
+./build/bin/main -m chatglm-ggml.bin -i
+python3 cli_demo.py -m ../chatglm-ggml.bin -i
+cd examples
+python3 cli_demo.py -m ../chatglm-ggml.bin -i
+pip install -U chatglm-cpp
+python3 cli_demo.py -m ../chatglm-ggml.bin -i
+python3 web_demo.py -m ../chatglm-ggml.bin
+pip install gradio
+python3 web_demo.py -m ../chatglm-ggml.bin
+sudo apt-get install golang-go
+cd deb
+sudo dpkg -i *.deb
+sudo apt-get -f install
+sudo dpkg --configure -a
+cd ..
+git clone https://github.com/huggingface/frp
+cd frp
+make frpc
+go version
+ke frpc
+sudo snap install --classic go
+make frpc
+go version
+/snap/bin/go version
+echo $PATH
+go version
+whereis go
+cp /usr/bin/go /root/go-old/
+sudo rm /usr/bin/go
+go version
+sudo ln -s /snap/bin/go /usr/bin/go
+go version
+make frpc
+which Go modules
+sudo find / -type d -name "Go modules" 2>/dev/null
+echo $(go env GOPATH)/pkg/mod
+make frpc
+ls -R /root/go/pkg/mod/
+make frpc
+sudo nano /etc/environment
+curl -I http://google.com
+make frpc
+curl ifconfig.me
+curl icanhazip.com
+echo $http_proxy
+echo $https_proxy
+source ~/.bashrc
+curl -I http://google.com
+curl --proxy http://178.128.113.118:23128 http://ifconfig.me
+curl --proxy http://202.144.157.1:9009 http://ifconfig.me
+curl --proxy http://67.43.227.226:25639 http://ifconfig.me
+curl --proxy http://72.10.160.172:15991 http://ifconfig.me
+curl --proxy http://114.129.2.82:8081 http://ifconfig.me
+curl --proxy http://72.10.160.170:5385 http://ifconfig.me
+curl --proxy http://67.43.228.254:32221 http://ifconfig.me
+curl --proxy http://72.10.160.91:18031 http://ifconfig.me
+curl --proxy http://72.10.160.92:26077 http://ifconfig.me
+curl --proxy http://20.235.104.105:3729 http://ifconfig.me
+curl --proxy http://167.172.238.15:10004 http://ifconfig.me
+curl --proxy http://200.174.198.95:8888 http://ifconfig.me
+curl --proxy http://20.204.214.79:3129 http://ifconfig.me
+curl --proxy http://116.106.3.228:1020 http://ifconfig.me
+curl --proxy http://20.204.190.254:3129 http://ifconfig.me
+curl --proxy http://20.219.235.172:3129 http://ifconfig.me
+curl --proxy http://159.65.186.46:10002 http://ifconfig.me
+curl --proxy http://68.183.48.146:10006 http://ifconfig.me
+curl --proxy http://117.1.252.143:9002 http://ifconfig.me
+curl --proxy http://20.219.183.188:3129 http://ifconfig.me
+curl --proxy http://20.219.176.57:3129 http://ifconfig.me
+curl --proxy http://20.219.177.85:3129 http://ifconfig.me
+curl --proxy http://72.10.160.90:29129 http://ifconfig.me
+curl --proxy http://20.44.189.184:3129 http://ifconfig.me
+curl --proxy http://67.43.228.252:1499 http://ifconfig.me
+curl --proxy http://20.219.177.38:3129 http://ifconfig.me
+curl --proxy https://43.157.53.107:443 http://ifconfig.me
+sudo nano /etc/environment
+nano ~/.bashrc
+source ~/.bashrc
+curl icanhazip.com
+curl -I http://google.com
+sudo nano /etc/environment
+source ~/.bashrc
+curl -I http://google.com
+curl icanhazip.com
+curl ifconfig.me
+curl --proxy https://43.157.53.107:443 http://ifconfig.me
+curl --proxy http://114.129.2.82:8081 http://ifconfig.me
+cd frp
+mkdir -p vendor
+cp -r /root/go/pkg/mod/github.com/ /root/frp/vendor/
+cp -r /root/go/pkg/mod/golang.org/ /root/frp/vendor/
+cp -r /root/go/pkg/mod/gopkg.in/ /root/frp/vendor/
+go build -mod=vendor -o bin/frpc ./cmd/frpc
+go mod vendor
+curl icanhazip.com
+conda activate chatglm
+cd frp
+conda activate zhongjinggpt
+make frpc
+curl -I http://google.com
+curl -I http://github.com
+export http_proxy="http://114.129.2.82:8081"
+export https_proxy="http://114.129.2.82:8081"
+make frpc
+export GOPROXY=direct
+make frpc
+sudo nano /etc/environment
+curl icanhazip.com
+make frpc
+conda activate tzhong'jing'g'p'y
+conda activate zhongjinggpt
+cd chatglm.cpp
+./build/bin/main -m chatglm-ggml.bin -i
+conda activate chatglm
+cd chatglm.cpp
+python3 chatglm_cpp/convert.py -i "/root/.cache/modelscope/hub/baichuan-inc/Baichuan2-13B-Chat/" -t q4_0 -o baichuan13b-ggml.bin
+conda activate zhongjinggpt
+python3 chatglm_cpp/convert.py -i "/root/.cache/modelscope/hub/baichuan-inc/Baichuan2-13B-Chat/" -t q4_0 -o baichuan13b-ggml.bin
+pip install tabulate
+python3 chatglm_cpp/convert.py -i "/root/.cache/modelscope/hub/baichuan-inc/Baichuan2-13B-Chat/" -t q4_0 -o baichuan13b-ggml.bin
+conda activate chatglm
+pip install xformers
+python3 chatglm_cpp/convert.py -i "/root/.cache/modelscope/hub/baichuan-inc/Baichuan2-7B-Chat/" -t q4_0 -o baichuan13b-ggml.bin
+conda activate zhongjinggpt
+python "/root/chatglm.cpp/qw.py"
+pip install tiktoken
+python "/root/chatglm.cpp/qw.py"
+conda activate zhongjinggpt
+pip install https://gradio-builds.s3.amazonaws.com/42296158685205bb735159f7a3747b8f5535a035/gradio-3.50.2-py3-none-any.whl
+pip install "gradio-client @ git+https://github.com/gradio-app/gradio@42296158685205bb735159f7a3747b8f5535a035#subdirectory=client/python"
+curl icanhazip.com
+cd frp
+make frpc
+go mod vendor
+make frpc
+make frpc -mod=readonly
+go mod vendor
+cd ..
+conda activate chatglm
+cd chatglm.cpp
+cd examples
+python3 cli_demo.py -m ../chatglm-ggml.bin -i
+conda activate zhongjinggpt
+python3 cli_demo.py -m ../chatglm-ggml.bin -i
+./build/bin/main -m chatglm-ggml.bin -i
+cd ..
+./build/bin/main -m chatglm-ggml.bin -i
+make frpc
+cd ..
+cd frp
+make frpc
+cd ..
+cd llama.cpp
+make
+cd build
+cmake ..
+zig build -Doptimize=ReleaseFast -Dtarget=x86_64-windows-gnu -Dcpu=x86_64+avx2+fma+f16c
+conda info
+sudo apt-get update
+sudo apt-get install --only-upgrade cmake
+top
+export PATH=/root/cmake-3.28.2-linux-aarch64/bin:$PATH
+cmake ..
+cmake --build . --config Release
+sudo apt-get install ccache
+sudo dpkg -i "/root/ccache_3.4.1-1_arm64.deb"
+cmake ..
+cmake --build . --config Release
+conda activate zhongjinggpt
+cd chatglm.cpp
+python3 chatglm_cpp/convert.py -i "/root/.cache/modelscope/hub/baichuan-inc/Baichuan2-7B-Chat/" -t q4_0 -o baichuan7b-ggml.bin
+python3 chatglm_cpp/convert.py -i "/root/.cache/modelscope/hub/baichuan-inc/Baichuan2-7B-Chat/" -t q4_1 -o baichuan7b-ggml.bin
+python hf_download.py --model baichuan-inc/Baichuan2-7B-Chat-4bits --save_dir /root/.cache/modelscope/hub/
+`
+
+
+gjmfgv,k
+vkuymhfkilgk,jhjk,l,.
+vbikluk,fkuyfiuk
+@
+$#%$^%587
+python3 chatglm_cpp/convert.py -i "/root/.cache/modelscope/hub/Qwen/Qwen-1_8B-Chat/" -t q4_0 -o qwen1-ggml.bin
+cd ..
+git clone --recursive https://github.com/QwenLM/qwen.cpp && cd qwen.cpp
+python3 qwen_cpp/convert.py -i /root/.cache/modelscope/hub/Qwen/Qwen-1_8B-Chat/ -t q4_0 -o qwen1b-ggml.bin
+cmake -B build
+cmake version
+cmake info
+cmake --version
+export PATH=/root/cmake-3.28.2-linux-aarch64/bin:$PATH
+cmake --version
+cmake -B build
+cmake --build build -j --config Release
+./build/bin/main -m qwen7b-ggml.bin --tiktoken Qwen-1B-Chat/qwen.tiktoken -p 我发热。咳嗽，咽痛，给出中医诊断和处方
+./build/bin/main -m qwen1b-ggml.bin --tiktoken Qwen-1B-Chat/qwen.tiktoken -p 我发热。咳嗽，咽痛，给出中医诊断和处方
+./build/bin/main -m qwen1b-ggml.bin --tiktoken Qwen-7B-Chat/qwen.tiktoken -p 我发热。咳嗽，咽痛，给出中医诊断和处方
+./build/bin/main -m qwen1b-ggml.bin --tiktoken /root/.cache/modelscope/hub/Qwen/Qwen-1_8B-Chat/qwen.tiktoken -p 我发热。咳嗽，咽痛，给出中医诊断和处方
+pip install -U qwen-cpp
+# install from the latest source hosted on GitHub
+pip install git+https://github.com/QwenLM/qwen.cpp.git@master
+# or install from your local source after git cloning the repo
+conda activate zhongjinggpt
+cd chatglm.cpp
+python bc134int.py
+python hf_download.py --model baichuan-inc/Baichuan2-13B-Chat-4bits --save_dir /root/.cache/modelscope/hub/
+conda activate zhongjinggpt
+cd chatglm.cpp
+python qw.py
+pip install transformers_stream_generator
+python qw.py
+pip install -U huggingface_hub
+echo $http_proxy
+echo $https_proxy
+echo $ftp_proxy
+echo $socks_proxy
+echo $no_proxy
+gsettings list-recursively org.gnome.system.proxy
+apt install libglib2.0-bin
+gsettings list-recursively org.gnome.system.proxy
+cat /etc/environment
+cat /etc/apt/apt.conf.d/* | grep Proxy
+mkdir -p /root/.cache/modelscope/hub/baichuan-inc/Baichuan2-7B-Chat-4bits/
+mv /root/.cache/modelscope/hub/models--baichuan-inc--Baichuan2-7B-Chat-4bits/* /root/.cache/modelscope/hub/baichuan-inc/Baichuan2-7B-Chat-4bits/
+python3 chatglm_cpp/convert.py -i "/root/.cache/modelscope/hub/baichuan-inc/Baichuan2-7B-Chat-4bits/" -t q4_0 -o baichuan7b-ggml.bin
+pip install bitsandbytes
+python3 chatglm_cpp/convert.py -i "/root/.cache/modelscope/hub/baichuan-inc/Baichuan2-7B-Chat-4bits/" -t q4_0 -o baichuan7b-ggml.bin
+pip install streamlit jupyter_client ipython ipykernel
+ipython kernel install --name chatglm3-demo --user
+streamlit run chatglm3_demo.py
+cd /root/chatglm.cpp/examples/
+streamlit run chatglm3_demo.py
+sudo ufw allow 8501
+streamlit run chatglm3_demo.py --server.address 0.0.0.0
+df -h
+free -h
+iscpu
+lscpu
+conda activate zhongjinggpt
+cd chatglm.cpp
+sudo dmidecode -t processor
+cat /proc/cpuinfo
+python3 chatglm_cpp/convert.py -i "/root/.cache/modelscope/hub/baichuan-inc/Baichuan2-7B-Chat/" -t q4_0 -o baichuan7b-ggml.bin
+python3 chatglm_cpp/convert.py -i "/root/.cache/modelscope/hub/baichuan-inc/Baichuan2-13B-Chat/" -t q4_0 -o baichuan13b-ggml.bin
+./build/bin/main -m baichuan13b-ggml.bin -i
+cd ..
+cd qwen.cpp
+./build/bin/main -m qwen1b-ggml.bin --tiktoken "/root/.cache/modelscope/hub/Qwen/Qwen-1_8B-Chat/qwen.tiktoken" -i
+df -h
+./build/bin/main -m qwen1b-ggml.bin --tiktoken "/root/.cache/modelscope/hub/Qwen/Qwen-1_8B-Chat/qwen.tiktoken" -i
+python3 qwen_cpp/convert.py -i "/root/.cache/modelscope/hub/qwen/Qwen-7B-Chat/" -t q4_0 -o qwen7b-ggml.bin
+cd ..
+cd chatglm.cpp
+cd examples
+python3 cli_demo.py -m ../chatglm-ggml.bin -i
+streamlit run chatglm3_demo.py
+ipython kernel install --name chatglm3-demo --user
+python3 cli_demo.py -m ../chatglm-ggml.bin -i
+python3 web_demo.py -m ../chatglm-ggml.bin
+streamlit run chatglm3_demo.py --server.address 0.0.0.0
+streamlit run chatglm3_demo.py --server.address 0.0.0.0 --server.port 8502
+streamlit run chatglm3_demo.py --server.address 0.0.0.0 --server.port 8504
+pip uninstall gradio
+pip install https://gradio-builds.s3.amazonaws.com/42296158685205bb735159f7a3747b8f5535a035/gradio-3.50.2-py3-none-any.whl
+pip install "gradio-client @ git+https://github.com/gradio-app/gradio@42296158685205bb735159f7a3747b8f5535a035#subdirectory=client/python"
+ping github.com
+pip install "gradio-client @ git+https://github.com/gradio-app/gradio@42296158685205bb735159f7a3747b8f5535a035#subdirectory=client/python"
+export GIT_HTTP_LOW_SPEED_LIMIT=2000
+export GIT_HTTP_LOW_SPEED_TIME=800
+pip install "gradio-client @ git+https://github.com/gradio-app/gradio@42296158685205bb735159f7a3747b8f5535a035#subdirectory=client/python"
+pip install https://gradio-builds.s3.amazonaws.com/42296158685205bb735159f7a3747b8f5535a035/gradio-3.50.2-py3-none-any.whl
+python3 web_demo.py -m ../chatglm-ggml.bin
+cd ..
+cd frp
+make frpc
+make frpc -mod=readonly
+go mod vendor
+export GIT_HTTP_LOW_SPEED_LIMIT=3000
+export GIT_HTTP_LOW_SPEED_TIME=1000
+go mod vendor
+export GIT_HTTP_LOW_SPEED_LIMIT=100000
+export GIT_HTTP_LOW_SPEED_TIME=30000
+go mod vendor
+pip uninstall gradio -y
+pip install gradio
+cd..
+cd ..
+cd chatglm.cpp/examples
+python3 web_demo.py -m ../chatglm-ggml.bin
+pip install "gradio-client @ git+https://github.com/gradio-app/gradio@42296158685205bb735159f7a3747b8f5535a035#subdirectory=client/python"
+pip install https://gradio-builds.s3.amazonaws.com/42296158685205bb735159f7a3747b8f5535a035/gradio-3.50.2-py3-none-any.whl
+gradio environment
+pip install tomlkit==0.12.0
+pip install authlib itsdangerous
+gradio environment
+top
+conda acctivate zhongjinggpt
+conda activate zhongjinggpt
+cd chatglm.cpp
+python "/root/chatglm.cpp/qw.py"
+pip uninstall bmtrain
+python bc134int.py
+ip addr show
+ifconfig
+hostname -I
+sudo ufw allow 8504
+gradio environment
+pip install "gradio-client @ git+https://github.com/gradio-app/gradio@42296158685205bb735159f7a3747b8f5535a035#subdirectory=client/python"
+gradio environment
+sudo ufw allow 8502
+conda activate zhongjinggpt
+cd chatglm.cp
+cd chatglm.cpp
+python bc134int.py
+ulimit -u
+free -m
+ulimit -n
+ulimit -n 4096
+python bc134int.py
+cd ..
+cd chatglm.cpp
+cd examples
+./build/bin/main -m chatglm-ggml.bin -i
+cd ..
+./build/bin/main -m chatglm-ggml.bin -i
+cd ..
+unzip "/root/Baichuan2.zip"
+cd Baichaun2
+cd Baichuan2
+python cli_demo.py
+cd 
+cd Baichaun2
+cd Baichuan2
+cd fine-tune
+hostfile=""
+deepspeed --hostfile=$hostfile fine-tune.py      --report_to "none"     --data_path "data/belle_chat_ramdon_10k.json"     --model_name_or_path "/root/.cache/modelscope/hub/baichuan-inc/Baichuan2-13B-Chat/"     --output_dir "output"     --model_max_length 512     --num_train_epochs 4     --per_device_train_batch_size 16     --gradient_accumulation_steps 1     --save_strategy epoch     --learning_rate 2e-5     --lr_scheduler_type constant     --adam_beta1 0.9     --adam_beta2 0.98     --adam_epsilon 1e-8     --max_grad_norm 1.0     --weight_decay 1e-4     --warmup_ratio 0.0     --logging_steps 1     --gradient_checkpointing True     --deepspeed ds_config.json     --bf16 True     --tf32 True
+pip install deepspeed
+deepspeed --hostfile=$hostfile fine-tune.py  >     --report_to "none" >     --data_path "data/belle_chat_ramdon_10k.json" >     --model_name_or_path "/root/.cache/modelscope/hub/baichuan-inc/Baichuan2-13B-Chat/" >     --output_dir "output" >     --model_max_length 512 >     --num_train_epochs 4 >     --per_device_train_batch_size 16 >     --gradient_accumulation_steps 1 >     --save_strategy epoch >     --learning_rate 2e-5 >     --lr_scheduler_type constant >     --adam_beta1 0.9 >     --adam_beta2 0.98 >     --adam_epsilon 1e-8 >     --max_grad_norm 1.0 >     --weight_decay 1e-4 >     --warmup_ratio 0.0 >     --logging_steps 1 >     --gradient_checkpointing True >     --deepspeed ds_config.json >     --bf16 True >     --tf32 True
+deepspeed --hostfile=$hostfile fine-tune.py     --report_to "none"     --data_path "data/belle_chat_ramdon_10k.json"     --model_name_or_path "/root/.cache/modelscope/hub/baichuan-inc/Baichuan2-13B-Chat/"     --output_dir "output"     --model_max_length 512     --num_train_epochs 4     --per_device_train_batch_size 16     --gradient_accumulation_steps 1     --save_strategy epoch     --learning_rate 2e-5     --lr_scheduler_type constant     --adam_beta1 0.9     --adam_beta2 0.98     --adam_epsilon 1e-8     --max_grad_norm 1.0     --weight_decay 1e-4     --warmup_ratio 0.0     --logging_steps 1     --gradient_checkpointing True     --deepspeed ds_config.json
+deepspeed --hostfile=$hostfile fine-tune.py >     --report_to "none" >     --data_path "data/belle_chat_ramdon_10k.json" >     --model_name_or_path "/root/.cache/modelscope/hub/baichuan-inc/Baichuan2-13B-Chat/" >     --output_dir "output" >     --model_max_length 512 >     --num_train_epochs 4 >     --per_device_train_batch_size 16 >     --gradient_accumulation_steps 1 >     --save_strategy epoch >     --learning_rate 2e-5 >     --lr_scheduler_type constant >     --adam_beta1 0.9 >     --adam_beta2 0.98 >     --adam_epsilon 1e-8 >     --max_grad_norm 1.0 >     --weight_decay 1e-4 >     --warmup_ratio 0.0 >     --logging_steps 1 >     --gradient_checkpointing True >     --deepspeed ds_config_cpu.json >     --use_lora True
+deepspeed --hostfile=$hostfile fine-tune.py > >     --report_to "none" \
+> >     --data_path "data/belle_chat_ramdon_10k.json" \
+> >     --model_name_or_path "/root/.cache/modelscope/hub/baichuan-inc/Baichuan2-13B-Chat/" \
+> >     --output_dir "output" \
+> >     --model_max_length 512 \
+> >     --num_train_epochs 4 \
+> >     --per_device_train_batch_size 16 \
+> >     --gradient_accumulation_steps 1 \
+> >     --save_strategy epoch \
+> >     --learning_rate 2e-5 \
+> >     --lr_scheduler_type constant \
+> >     --adam_beta1 0.9 \
+> >     --adam_beta2 0.98 \
+> >     --adam_epsilon 1e-8 \
+> >     --max_grad_norm 1.0 \
+> >     --weight_decay 1e-4 \
+> >     --warmup_ratio 0.0 \
+> >     --logging_steps 1 \
+> >     --gradient_checkpointing True \
+> >     --deepspeed ds_config_cpu.jsondeepspeed --hostfile=$hostfile fine-tune.py \
+>     --report_to "none" >     --data_path "data/belle_chat_ramdon_10k.json" >     --model_name_or_path "/root/.cache/modelscope/hub/baichuan-inc/Baichuan2-13B-Chat/" >     --output_dir "output" >     --model_max_length 512 >     --num_train_epochs 4 >     --per_device_train_batch_size 16 >     --gradient_accumulation_steps 1 >     --save_strategy epoch >     --learning_rate 2e-5 >     --lr_scheduler_type constant >     --adam_beta1 0.9 >     --adam_beta2 0.98 >     --adam_epsilon 1e-8 >     --max_grad_norm 1.0 >     --weight_decay 1e-4 >     --warmup_ratio 0.0 >     --logging_steps 1 >     --gradient_checkpointing True >     --deepspeed ds_config_cpu.json
+deepspeed --hostfile=$hostfile fine-tune.py > >     --report_to "none" \
+> >     --data_path "data/belle_chat_ramdon_10k.json" \
+> >     --model_name_or_path "/root/.cache/modelscope/hub/baichuan-inc/Baichuan2-13B-Chat/" \
+> >     --output_dir "output" \
+> >     --model_max_length 512 \
+> >     --num_train_epochs 4 \
+> >     --per_device_train_batch_size 16 \
+> >     --gradient_accumulation_steps 1 \
+> >     --save_strategy epoch \
+> >     --learning_rate 2e-5 \
+> >     --lr_scheduler_type constant \
+> >     --adam_beta1 0.9 \
+> >     --adam_beta2 0.98 \
+> >     --adam_epsilon 1e-8 \
+> >     --max_grad_norm 1.0 \
+> >     --weight_decay 1e-4 \
+> >     --warmup_ratio 0.0 \
+> >     --logging_steps 1 \
+> >     --gradient_checkpointing True \
+> >     --deepspeed ds_config_cpu.json
+deepspeed --hostfile=$hostfile fine-tune.py     --report_to "none"     --data_path "data/belle_chat_ramdon_10k.json"     --model_name_or_path "/root/.cache/modelscope/hub/baichuan-inc/Baichuan2-13B-Chat/"     --output_dir "output"     --model_max_length 512     --num_train_epochs 4     --per_device_train_batch_size 16     --gradient_accumulation_steps 1     --save_strategy epoch     --learning_rate 2e-5     --lr_scheduler_type constant     --adam_beta1 0.9     --adam_beta2 0.98     --adam_epsilon 1e-8     --max_grad_norm 1.0     --weight_decay 1e-4     --warmup_ratio 0.0     --logging_steps 1     --gradient_checkpointing True     --deepspeed ds_config_cpu.json
+unzip "/root/Baichuan2/fine-tuneTCM.zip"
+mv /root/Baichuan2/fine-tune/fine-tuneTCM/ /root/Baichuan2/
+cd ..
+cd chatglm.cpp
+./build/bin/main -m baichuan13-ggml.bin -i
+./build/bin/main -m baichuan13b-ggml.bin -i
+python3 chatglm_cpp/convert.py -i /root/.cache/modelscope/hub/baichuan-inc/Baichuan2-13B-Chat -t q4_0 -o baichuan13btcm0-ggml.bin -l /root/Baichuan2/fine-tuneTCM/output/
+./build/bin/main -m baichuan13btcm0-ggml.bin -i
+conda activate zhongjinggpt
+cd chatglm.cpp
+cd examples
+gradio environment
+python3 web_demo.py -m ../chatglm-ggml.bin
+rm -rf /root/.cache/modelscope/hub/baichuan-inc/Baichuan2-7B-Chat-4bits/
+rm -rf "/root/.cache/modelscope/hub/models--baichuan-inc--Baichuan2-13B-Chat-4bits/"
+cd ..
+python qw.py
+pip install matplotlib -U
+pip install torchvision
+cd examples
+python3 cli_demo.py -m ../chatglm-ggml.bin -i
+cd ..
+python cpm.py
+pip install timm
+python cpm.py
+pip install transformers.cache_utils
+conda create -n cpm python=3.9
+conda activate cpm
+pip install inference/vllm
+cd ..
+git clone https://github.com/OpenBMB/MiniCPM.git
+conda activate zhongjinggpy
+conda activate zhongjinggpt
+cd chatglm.cpp
+python cpm2b.py
+python cpm.py
+python cpm2b.py
+python cpm.py
+pip install flash_attn
+cd ..
+cd Baichuan2
+cd fine-tune
+pip install -U deepsparse-nightly[llm]
+cd ..
+cd chatglm.cpp
+cd examples
+./build/bin/main -m chatglm-ggml.bin -i
+cd ..
+./build/bin/main -m chatglm-ggml.bin -i
+cd ..
+python3 chatglm_cpp/convert.py -i /root/.cache/modelscope/hub/baichuan-inc/Baichuan2-13B-Chat -t q4_0 -o baichuan13btcm-ggml.bin -l /root/Baichuan2/fine-tuneTCM/output-1013/
+cd chatglm.cpp
+python3 chatglm_cpp/convert.py -i /root/.cache/modelscope/hub/baichuan-inc/Baichuan2-13B-Chat -t q4_0 -o baichuan13btcm-ggml.bin -l /root/Baichuan2/fine-tuneTCM/output-1013/
+./build/bin/main -m baichuan13btcm-ggml.bin -i
+cd ..
+cd qwen.cpp
+./build/bin/main -m qwen7b-ggml.bin --tiktoken "/root/.cache/modelscope/hub/Qwen/Qwen-1_8B-Chat/qwen.tiktoken" -i
+./build/bin/main -m qwen1b-ggml.bin --tiktoken "/root/.cache/modelscope/hub/Qwen/Qwen-1_8B-Chat/qwen.tiktoken" -i
+git clone https://github.com/intel-analytics/BigDL.git
+unzip "/root/BigDL-main.zip"
+cd BigDL
+conda activate zhongjinggpt
+pip install --pre --upgrade bigdl-llm[all]
+pip install bigdl
+pip install --pre --upgrade bigdl
+conda activate cpm
+pip install --pre --upgrade bigdl
+pip install bigdl-llm
+cd ..
+conda activate zhongjinggpt
+git clone https://github.com/mymusise/ChatGLM-Tuning.git
+unzip "/root/ChatGLM-Tuning-master.zip"
+cd ChatGLM-Tuning
+pip install -r requirements.txt
+pip install bitsandbytes
+pip install accelerate
+pip install protobuf
+pip install icetk
+pip install cpm_kernels
+pip install tensorboard
+pip install datasets
+python cover_alpaca2jsonl.py     --data_path data/alpaca_data.json     --save_path data/alpaca_data.jsonl
+python tokenize_dataset_rows.py     --jsonl_path data/alpaca_data.jsonl     --save_path data/alpaca     --max_seq_length 128
+top
+history > command_history.txt
+conda activate zhongjinggpt
+cd chatglm.cpp
+tmux ls
+python3 cli_demo.py -m ../baichuan13btcm0-ggml.bin -p 你好 --temp 0.8 --top_p 0.8
+python3 cli_demo.py -m baichuan13btcm0-ggml.bin -p 你好 --temp 0.8 --top_p 0.8
+./build/bin/main -m baichuan13btcm0-ggml.bin -i
+python3 cli_demo.py -m ../baichuan13btcm0-ggml.bin -p 你好 --temp 0.8 --top_p 0.8
+python3 cli_demo.py -m ../chatglm-ggml.bin -i
+cd examples
+python3 cli_demo.py -m ../baichaun13btcm0-ggml.bin -i
+cd ..
+python3 /examples/cli_demo.py -m baichaun13btcm0-ggml.bin -i
+python3 "/root/chatglm.cpp/examples/cli_demo.py" -m baichaun13btcm0-ggml.bin -i
+cd examples
+python3 cli_demo.py -m ../chatglm-ggml.bin -i
+python3 cli_demo.py -m ../baichaun13b-ggml.bin -i
+python3 cli_demo.py -m ../baichuan13btcm0-ggml.bin -i
+python3 cli_demo.py -m ../baichuan13btcm-ggml.bin -i
+python3 cli_demo.py -m ../baichuan13btcm0-ggml.bin -i
+cmp -l /root/chatglm.cpp/baichuan13b-ggml.bin /root/chatglm.cpp/baichuan13btcm-ggml.bin
+df -h
+lsblk
+mkdir /mnt/disk1
+mkdir /mnt/disk2
+mkdir /mnt/disk3
+mount /dev/sdb /mnt/disk1
+mount /dev/sdc /mnt/disk2
+mount /dev/sdd /mnt/disk3
+/dev/sdb    /mnt/disk1    ext4    defaults    0    2
+/dev/sdc    /mnt/disk2    ext4    defaults    0    2
+/dev/sdd    /mnt/disk3    ext4    defaults    0    2
+mkfs.ext4 /dev/sdb
+mkfs.ext4 /dev/sdc
+mkfs.ext4 /dev/sdd
+mount /dev/sdb /mnt/disk1
+mount /dev/sdc /mnt/disk2
+mount /dev/sdd /mnt/disk3
+nano /etc/fstab
+mount -a
+df -h
+npm install -g localtunnel
+apt install npm
+cd ..
+cd ...
+cd ..
+tar -xzvf npm_packages.tar.gz
+cd npm
+tar -xzvf npm_packages.tar.gz
+dpkg -i *.deb
+cd npmarm
+unzip deb.zip
+dpkg -i *.deb
+sudo apt install gdebi-core
+sudo apt --fix-broken install
+cd ..
+cd npmct
+unzip "/root/npm/npmct/deb_files1.zip.zip"
+dpkg -i *.deb
+apt-get install -f
+cd deb
+dpkg -i *.deb
+wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm64.zip
+unzip ngrok-stable-linux-arm64.zip
+chmod +x ngrok
+./ngrok authtoken 2Vv5OCvuISl9XFBDcS7ZNSbWkLJ_h4Xjsyoab32StEgkyGYW
+npm install -g localtunnel
+sudo apt-get install libhttp-parser2.7.1
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+source ~/.bashrc
+nvm install node # 安装最新版本的Node.js
+nvm use node
+sudo apt --fix-broken install
+curl -x http://103.55.63.90:8080 -I https://google.com
+curl -x http://2.139.187.83:3128 -I https://google.com
+curl -x http://186.103.130.91:8080 -I https://google.com
+curl -x http://70.63.90.245:8080 -I https://google.com
+curl -x http://68.183.143.134:80 -I https://google.com
+curl -x http://40.84.24.155:80 -I https://google.com
+curl -x https://216.39.173.51:9001 -I https://google.com
+for deb in /root/npm/*.deb; do     echo "Processing $deb file...";     pkg=$(dpkg-deb -f "$deb" Package);     echo "Package name extracted: $pkg";     echo $pkg >> /root/npm/npmct/deb/packages_to_remove.txt; done
+cat /root/npm/npmct/deb/packages_to_remove.txt | while read pkg; do     echo "Attempting to remove package: $pkg";     sudo apt-get remove --purge -y "$pkg"; done
+sudo apt install xubuntu-desktop
+sudo apt install ubuntu-desktop
+apt --fix-broken install
+sudo dpkg --remove --force-remove-reinstreq node-cacache node-copy-concurrently node-coveralls node-esprima node-fetch node-js-yaml node-jsdom node-log-driver node-mime-types node-minipass node-move-concurrently node-npm-package-arg node-opener node-ssri node-tap node-tap-mocha-reporter node-tap-parser node-ws npm
+sudo apt-get install librsvg2-common python python-pkg-resources libpixman-1-0 liblcms2-2 libtiff5 libcups2 libpango-1.0-0 libpangocairo-1.0-0 libpangoft2-1.0-0 libwayland-client0 libwayland-cursor0 libwayland-egl1 libjpeg-turbo8 libpython2.7-stdlib libsoup-gnome2.4-1 libsoup2.4-1 libc-ares2 libhttp-parser2.7.1 libssl1.0-dev
+apt --fix-broken install
+sudo dpkg --remove --force-remove-reinstreq $(cat /root/npm/npmct/deb/packages_to_remove.txt | tr '\n' ' ')
+sudo apt install xubuntu-desktop
+apt --fix-broken install
+cd ..
+dpkg -i node-wrappy_1.0.2-1_all.deb
+cd ..
+dpkg -i node-wrappy_1.0.2-1_all.deb
+cd npmct
+cd deb
+dpkg -i .deb
+dpkg -i *.deb
+sudo apt --fix-broken install
+sudo dpkg --configure -a
+sudo apt remove --purge nodejs python python-minimal
+sudo apt autoremove
+sudo apt update
+sudo apt install nodejs python python-minimal
+sudo dpkg -i *.deb
+sudo apt install ubuntu-desktop
+import time
+time.sleep(3)  # Wait for ngrok to initialize
+curl -s http://localhost:4040/api/tunnels | python3 -c     "import sys, json; print(json.load(sys.stdin)['tunnels'][0]['public_url'])"
+python
+top
+curl -x http://103.130.130.179:8080 -I https://google.com
+curl --socks5 173.0.255.16:45554 -I https://google.com
+curl --socks5 199.19.95.247:1080 -I https://google.com
+fd -h
+df -h
+sudo apt install xubuntu-desktop
+apt --fix-broken install
+sudo apt remove node-cacache node-copy-concurrently node-coveralls node-esprima node-fetch node-js-yaml node-jsdom node-log-driver node-mime-types node-minipass node-move-concurrently node-npm-package-arg node-opener node-ssri node-tap node-tap-mocha-reporter node-tap-parser node-ws
+apt --fix-broken install
+cd npm
+cd npmct
+cd deb
+dpkg -i *.deb
+cd ..
+cd ...
+cd ..
+cd chatglm.cpp
+conda activate zhongjinggpt
+gradio environment
+pip install gradio
+gradio environment
+cd examples
+python3 cli_demo.py -m ../baichuan13btcm0-ggml.bin -i
+cd ..
+cd examples
+python3 web_demo.py -m ../baichuan13btcm0-ggml.bin
+curl -s http://localhost:4040/api/tunnels | python3 -c     "import sys, json; print(json.load(sys.stdin)['tunnels'][0]['public_url'])"
+cd qwen.cpp
+./build/bin/main -m qwen1b-ggml.bin --tiktoken "/root/.cache/modelscope/hub/Qwen/Qwen-1_8B-Chat/qwen.tiktoken" -i
+sudo apt install ubuntu-gnome-desktop
+apt --fix-broken install
+cd ..
+cd/root/npm/npmct/deb/
+cd /root/npm/npmct/deb/
+dpkg -i "/root/npm/npmct/deb/python_2.7.15~rc1-1_arm64.deb"
+sudo dpkg --configure python-minimal
+dpkg -i "/root/npm/npmct/deb/python2.7-minimal_2.7.18-1~20.04.3_arm64.deb"
+conda activate baichuan2
+conda activate chatglm
+cd chatglm
+cd chatglm.cpp
+cd ..
+cd qwen.cpp
+./build/bin/main -m qwen1b-ggml.bin --tiktoken "/root/.cache/modelscope/hub/Qwen/Qwen-1_8B-Chat/qwen.tiktoken" -i
+conda activate zhongjinggpt
+cd llama.cpp
+cd ..
+cd chatglm.cpp
+python3 web_demo.py -m ../baichuan13btcm0-ggml.bin
+cd examples
+python3 web_demo.py -m ../baichuan13btcm0-ggml.bin
+conda activate chatglm
+python3 web_demo.py -m ../baichuan13btcm0-ggml.bin
+pip install chatglm_cpp
+python3 web_demo.py -m ../baichuan13btcm0-ggml.bin
+pip install gradio
+conda activate chatglm
+cd /root/LLaMA-Factory
+CUDA_VISIBLE_DEVICES=0 USE_MODELSCOPE_HUB=1 python src/train_web.py
+conda ngrok http 2137
+ngrok http 2137
+ps aux | grep ngrok
+kill -9 28795
+ngrok http 2137
+ngrok http 2138
+conda activate chatglm
+cd chatglm.cpp/examples
+python3 web_demo.py -m ../baichuan13btcm0-ggml.bin
+wget --timeout=12000 --tries=10 https://github.com/fatedier/frp/releases/download/v0.54.0/frp_0.54.0_linux_arm64.tar.gz
+sudo mv frpc_linux_aarch64_v0.2 /root/anaconda3/envs/chatglm/lib/python3.9/site-packages/gradio
+python3 web_demo.py -m ../baichuan13btcm0-ggml.bin
+frpc -v
+frps -v
+gradio environment
+pip install gradio-client==0.10.0
+pip install oauth
+pip install tomlkit==0.12.0
+gradio environment
+unzip "/root/LLaMA-Factory-main.zip"
+cd ..
+mv /root/chatglm.cpp/examples/LLaMA-Factory-main/* /root/
+cd root
+cd /root/
+unzip "/root/LLaMA-Factory-main.zip"
+cd /root/LLaMA-Factory/
+pip install uvicorn
+pip install pydantic fastapi sse-starlette matplotlib
+pip install protobuf einops trl
+nvidia-smi
+CUDA_VISIBLE_DEVICES=0 USE_MODELSCOPE_HUB=1 python src/train_web.py
+pip install peft
+CUDA_VISIBLE_DEVICES=0 USE_MODELSCOPE_HUB=1 python src/train_web.py
+pip install "gradio>=3.38.0,<4.0.0
+dasasdvfmaslndp"
+pip install gradio==3.38.0
+CUDA_VISIBLE_DEVICES=0 USE_MODELSCOPE_HUB=1 python src/train_web.py
+pip install gradio==9.2
+pip install gradio==3.50.2
+CUDA_VISIBLE_DEVICES=0 USE_MODELSCOPE_HUB=1 python src/train_web.py
+ngrok http 6006
+snap install ngrok
+ngrok http 6006
+CUDA_VISIBLE_DEVICES=0 USE_MODELSCOPE_HUB=1 python src/train_web.py
+ngrok http 6006
+ngrok config upgrade
+ngrok http 6006
+CUDA_VISIBLE_DEVICES=0 USE_MODELSCOPE_HUB=1 python src/train_web.py
+lsof -i :2136
+kill 25363 27580
+CUDA_VISIBLE_DEVICES=0 USE_MODELSCOPE_HUB=1 python src/train_web.py
+conda activate chatglm
+pip install transformers==4.37.2
+pip install tiktoken
+pip install transformers_stream_generator
+conda activate llm
+conda activate chatglm
+cd /root/LLaMA-Factory/
+CUDA_VISIBLE_DEVICES=0 USE_MODELSCOPE_HUB=1 python src/train_web.py
+ngrok http 2137
+conda activate llm
+conda activate chatglm
+cd /root/LLaMA-Factory/
+CUDA_VISIBLE_DEVICES=0 USE_MODELSCOPE_HUB=1 python src/train_web.py
+cd ..
+cd chatglm.cpp
+python3 examples/web_demo.py -m ../baichuan13btcm0-ggml.bin
+cd examples
+python3 web_demo.py -m ../baichuan13btcm0-ggml.bin
+ps aux | grep ngrok
+kill -9 3749
+cd ..
+cd qwen.cpp
+cd ..
+cd qwen.cpp
+cd ..
+cd chatglm.cpp
+cd examples
+python3 web_demo.py -m ../baichuan7b-ggml.bin
+pip install gradio==9.9
+pip install gradio==pip show gradio
+pip show gradio
+pip install gradio==3.49.0
+cd /root/LLaMA-Factory/saves/Qwen-1.8B-Chat/lora/
+unzip train.zip
+cd ...
+cd .
+cd ..
+python "/root/autodl-tmp/LLaMA-Factory/src/web_demo.py" --model_name_or_path /root/.cache/modelscope/hub/qwen/Qwen1.5-1.8B-Chat/ --adapter_name_or_path "/root/LLaMA-Factory/saves/Qwen-1.8B-Chat/lora/train/" --template qwen
+python src/web_demo.py --model_name_or_path /root/.cache/modelscope/hub/qwen/Qwen1.5-1.8B-Chat/ --adapter_name_or_path "/root/LLaMA-Factory/saves/Qwen-1.8B-Chat/lora/train/" --template qwen
+python src/web_demo.py --model_name_or_path /root/.cache/modelscope/hub/qwen/Qwen1.5-0.5B-Chat/ --adapter_name_or_path /root/LLaMA-Factory/saves/Qwen-0.5B-Chat/ --template qwen
+python src/web_demo.py --model_name_or_path /root/.cache/modelscope/hub/qwen/Qwen1.5-1.8B-Chat/ --adapter_name_or_path "/root/LLaMA-Factory/saves/Qwen-1.8B-Chat/lora/train/" --template qwen
+ps aux | grep ngrok
+kill -9 3269
+ngrok htp 2139
+ngrok http 2139
+ngrok http 2140
+ngrok http 2141
+conda activate chatglm
+pip install modelscope
+cd /root/LLaMA-Factory/
+python qwen1b.py
+ngrok http 2149
+ngrok http 2150
+tmux
+--quantization_bit QUANTIZATION_BIT
+conda activate zhongjinggpt
+python3 chatglm_cpp/convert.py -i /root/.cache/modelscope/hub/baichuan-inc/Baichuan2-13B-Chat -t q4_0 -o baichuan13btcm0-ggml.bin -l /root/Baichuan2/fine-tuneTCM/output/
+cd /root/chatglm.cpp/
+python3 chatglm_cpp/convert.py -i /root/.cache/modelscope/hub/qwen/Qwen1.5-1.8B-Chat/ -t q4_0 -o qwen1btcm0-ggml.bin -l /root/LLaMA-Factory/saves/Qwen-1.8B-Chat/lora/train/
+pip show transformers
+pip install transformers==4.37.0
+python3 chatglm_cpp/convert.py -i /root/.cache/modelscope/hub/baichuan-inc/Baichuan2-13B-Chat -t q4_0 -o baichuan13btcm0-ggml.bin -l /root/Baichuan2/fine-tuneTCM/output/
+python3 chatglm_cpp/convert.py -i /root/.cache/modelscope/hub/qwen/Qwen1.5-1.8B-Chat/ -t q4_0 -o qwen1btcm0-ggml.bin -l /root/LLaMA-Factory/saves/Qwen-1.8B-Chat/lora/train/
+make
+cd ..
+cd llama.cpp
+make
+cd build
+cmake ..
+export PATH=/root/cmake-3.28.2-linux-aarch64/bin:$PATH
+cmake ..
+cmake --build . --config Release
+cmake .. -DCMAKE_BUILD_TYPE=Release
+cmake --build . --config Release
+cd ..
+cd /root/chatglm.cpp/
+python qw.py
+tmux
+conda activate chatglm
+tmux ls
+cd /root/LLaMA-Factory/
+python GPT.py
+HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=1 python GPT.py --model_name_or_path /root/.cache/modelscope/hub/qwen/Qwen1.5-0.5B-Chat/
+tmux attach-t 2
+tmux attach -t 2
+tmux ls
+tmux attach -t 0
+top
+tmux ls
+tmux attach -n 1
+tmux attach -t 1
+df -h
+top
+df -h
+sudo apt update -qq
+# install two helper packages we need
+sudo apt install --no-install-recommends software-properties-common dirmngr
+# add the signing key (by Michael Rutter) for these repos
+# To verify key, run gpg --show-keys /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc 
+# Fingerprint: E298A3A825C0D65DFD57CBB651716619E084DAB9
+wget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc | sudo tee -a /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc
+# add the R 4.0 repo from CRAN -- adjust 'focal' to 'groovy' or 'bionic' as needed
+sudo add-apt-repository "deb https://cloud.r-project.org/bin/linux/ubuntu $(lsb_release -cs)-cran40/"
+sudo apt --fix-broken install
+cd tests
+sudo dpkg -i python_2.7.15~rc1-1_arm64.deb
+git clone https://github.com/jrowen/ARM-rstudio-server.git
+git clone https://github.com/dashaub/ARM-RStudio.git
+cd /root/ARM-RStudio/
+sudo ./ARM-RStudio.sh
+sudo chmod a+x ARM-RStudio.sh
+sudo ./ARM-RStudio.sh
+apt --fix-broken install
+sudo apt-get install libbz2-dev build-essential libpcre2-dev   fort77 gfortran gcc gobjc++ openjdk-11-jdk openjdk-11-jre-headless   libssl-dev libssh2-1-dev libv8-dev libxml2-dev libfftw3-dev   libtiff5-dev libhdf5-dev libcurl4-openssl-dev xorg-dev   libtiff-dev libcairo2-dev texlive texlive-fonts-extra texinfo   libblas-dev liblapack-dev liblzma-dev libreadline-dev
+RVER="R-4.1.0"
+wget https://cran.r-project.org/src/base/R-4/$RVER.tar.gz
+tar -xf ./$RVER.tar.gz
+cd ./$RVER
+./configure --enable-memory-profiling --enable-R-shlib
+make
+sudo apt-get install gdebi-core
+sudo apt-get update
+sudo apt-get install  apt-transport-https  ca-certificates  curl  software-properties-common
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo add-apt-repository  "deb [arch=arm64] https://download.docker.com/linux/ubuntu \
+ $(lsb_release -cs) \
+ stable"
+sudo apt-get update
+sudo apt-get install docker-ce
+apt list -a docker-ce
+sudo docker run hello-world
+sudo apt-get install docker-ce=docker-ce/bionic 18.03.1~ce~3-0~ubuntu arm64
+sudo apt-get install docker-ce=5:20.10.6~3-0~ubuntu-bionic
+sudo apt --fix-broken install
+sudo apt-get update
+conda create --name my-r-env r-essentials r-base
+conda activate my-r-env
+git clone https://github.com/j-andrews7/singularity-rstudio.git
+unzip "/root/singularity-rstudio-main.zip"
+cd singularity-rstudio
+singularity build rstudio_r_4.0.5-1.2004.0.sif /home/et21-kangyl/singularity-rstudio/rstudio_r_4.0.5-1.2004.0.def
+conda create --name my-singularity-env
+conda activate my-singularity-env
+conda install -c conda-forge singularity
+singularity build rstudio_r_4.0.5-1.2004.0.sif /home/et21-kangyl/singularity-rstudio/rstudio_r_4.0.5-1.2004.0.def
+singularity build rstudio_r_4.0.5-1.2004.0.sif /root/singularity-rstudio/rstudio_r_4.0.5-1.2004.0.def
+conda activate my-singularity-env
+cd /root/singularity-rstudio/
+sudo dpkg -i rstudio-server-1.4.9-arm64-relwithdebinfo.deb
+apt update
+apt install libclang-dev libpq5
+apt --fix-broken install
+sudo nano /etc/apt/sources.list
+sudo dpkg --print-foreign-architectures
+sudo dpkg --add-architecture arm64
+sudo dpkg --print-foreign-architectures
+sudo apt-get update
+dpkg -i rstudio-server-1.4.9-arm64-relwithdebinfo.deb
+singularity build rstudio_r_4.0.5-1.2004.0.sif /root/singularity-rstudio/rstudio_r_4.0.5-1.2004.0.def
+singularity build --remote rstudio_r_4.0.5-1.2004.0.sif /root/singularity-rstudio/rstudio_r_4.0.5-1.2004.0.def
+singularity remote login
+singularity build --remote rstudio_r_4.0.5-1.2004.0.sif /root/singularity-rstudio/rstudio_r_4.0.5-1.2004.0.def
+cd ..
+git clone https://github.com/dashaub/ARM-RStudio.git
+cd /root/ARM-RStudio/
+sudo ./ARM-RStudio.sh
+apt --fix-broken install
+sudo dpkg -i python_2.7.15~rc1-1_arm64.deb
+sudo dpkg -i path/to/python-minimal_package.deb
+sudo dpkg --configure python-minimal
+apt-cache policy libpython2.7-minimal
+sudo apt purge libpython2*
+sudo apt install python
+tmux ls
+tmux
+tmux ls
