@@ -84,9 +84,9 @@ sudo apt-get install software-properties-common dirmngr build-essential
 Conda is used for managing Python environments:
 
 ```bash
-# Download and install Miniconda
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-bash Miniconda3-latest-Linux-x86_64.sh
+# Download and install Anaconda
+wget https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-aarch64.sh
+bash Anaconda3-2022.05-Linux-aarch64.sh
 
 # Initialize conda
 source ~/.bashrc
