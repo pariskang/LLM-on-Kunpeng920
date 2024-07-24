@@ -34,18 +34,11 @@ To get started with LLM-on-Kunpeng920, follow these steps:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/LLM-on-Kunpeng920.git
+   git clone https://github.com/pariskang/LLM-on-Kunpeng920.git
    cd LLM-on-Kunpeng920
    ```
 
-2. Set up the environment:
-   ```
-   conda create -n kunpengllm python=3.9
-   conda activate kunpengllm
-   pip install -r requirements.txt
-   ```
-
-3. Follow the guides in the `docs` folder for detailed instructions on each step of the process.
+2. Follow the guides in the `docs` folder for detailed instructions on each step of the process.
 
 ## Documentation
 
