@@ -50,10 +50,11 @@ To get started with LLM-on-Kunpeng920, follow these steps:
 Our documentation is divided into several key sections:
 
 1. [System Environment Preparation](docs/system_environment.md)
-2. [Model Conversion and Quantization](docs/model_conversion.md)
-3. [Compiling Inference Engines](docs/inference_engines.md)
-4. [Running Inference and Demos](docs/inference_and_demos.md)
-5. [Deployment and Optimization](docs/deployment_and_optimization.md)
+2. [Necessary Dependencies and Tools](docs/Necessary_Dependencies_and_Tools.md)
+3. [Setting Up Model Repositories](docs/Setting_Up_Model_Repositories.md)
+4. [Model Conversion and Quantization](docs/Model_Conversion_and_Quantization.md)
+5. [Inference](docs/Inference.md)
+6. [Demo and Ngrok](docs/Demo_and_Ngrok.md)
 
 Each document provides step-by-step instructions and best practices for its respective topic.
 
