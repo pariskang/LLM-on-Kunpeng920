@@ -17,6 +17,8 @@ LLM-on-Kunpeng920 is a comprehensive guide and toolkit for deploying and optimiz
 
 The Huawei Kunpeng 920 is a high-performance ARM-based CPU processor designed for server workloads. This toolkit provides optimized methods for deploying various LLMs, including but not limited to ChatGLM, Baichuan, and Qwen, on this platform. Our goal is to maximize the performance of LLM inference while maintaining model accuracy.
 
+![Demo](demo.PNG)
+
 ## Features
 
 - Detailed guides for system environment preparation
